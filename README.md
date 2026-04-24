@@ -83,7 +83,7 @@ The tool attempts to establish a TCP connection to specific ports.
 
 ## How to Run
 
-```bash
+bash
 python3 port_monitor.py
 
 ---
@@ -94,7 +94,7 @@ The system follows a **client-server model** where the monitoring tool acts as a
 
 The tool sends TCP connection requests to specific ports (such as 22, 80, 443, 3306). If the target system accepts the connection, the service is considered active (UP); otherwise, it is marked as DOWN.
 
----
+
 
 ## Detailed Description
 
@@ -108,7 +108,7 @@ Additionally, the tool detects changes in port status and logs these events with
 
 The project currently monitors services on the local machine (localhost), but it can be easily extended to monitor remote systems by changing the target IP address.
 
----
+
 
 ## Features
 
@@ -118,14 +118,14 @@ The project currently monitors services on the local machine (localhost), but it
 - Alerts for status changes  
 - Logging of port activity  
 
----
+
 
 ## Technologies Used
 
 - Python  
 - Socket Programming  
 
----
+
 
 ## How It Works
 
@@ -133,7 +133,7 @@ The tool attempts to establish a TCP connection to specific ports.
 - If the connection succeeds → Port is **UP**  
 - If the connection fails → Port is **DOWN**
 
----
+
 
 ## Example Ports Monitored
 
@@ -142,9 +142,9 @@ The tool attempts to establish a TCP connection to specific ports.
 - HTTPS (Port 443)  
 - MySQL (Port 3306)  
 
----
+
 
 ## How to Run
 
-```bash
+bash
 python3 port_monitor.py
