@@ -12,19 +12,9 @@ This project is a Python-based real-time port monitoring tool that checks the av
 ---
 
 ## Topology
-+---------------------+
-|   Monitoring Tool   |
-|   (port_monitor.py) |
-+----------+----------+
-           |
------------------------------------
-|        |        |               |
-SSH(22)  HTTP(80) HTTPS(443)  MySQL(3306)
-|        |        |               |
-+--------------------------------------+
-|           Target Host                |
-|        (127.0.0.1 / Remote)         |
-+--------------------------------------+
+
+<img width="762" height="533" alt="image" src="https://github.com/user-attachments/assets/0dad4191-fea8-4a4d-80e8-f8cfd1cc63e8" />
+
 
 ---
 
